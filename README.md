@@ -10,7 +10,7 @@
 ```
 
 ### Full-Stack Developer · AI Engineer · Cybersecurity
-**Delhi, India** · B.Tech CS @ AKTU (2023–2027)
+**Delhi, India** · B.Tech CS (2023–2027)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anjaneya-tiwari)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://codebyanjaneya.github.io)
