@@ -32,12 +32,14 @@ $ cat ~/.focus
 ### 1. LoadPulse, Real-time Concurrency & Observability Platform
 Architected an async backend simulating high-concurrency request handling with FastAPI worker pools and token-bucket rate limiting. Benchmarked at 1000+ concurrent sessions with graceful degradation. Live observability dashboard streams p50/p95/p99 latency, queue depth, and worker utilization over WebSockets every 500ms. Deployed on AWS EC2 with NGINX reverse proxy and SSL.
 
-[LIVE DEMO](https://loadpulse-dashboard.vercel.app) | [GitHub](https://github.com/codebyanjaneya/loadpulse)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-loadpulse--dashboard.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://loadpulse-dashboard.vercel.app) | [GitHub](https://github.com/codebyanjaneya/loadpulse)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react) ![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-black?style=flat-square) ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws)
 
 ### 2. AutoApply Bot, Recruitment Automation SaaS
 A multi-tenant Telegram bot that automates the full job-hunt loop: parsing resumes, matching candidates to openings with Groq Llama 4, and drafting personalized recruiter outreach. n8n workflows orchestrate scraping and timed follow-up sequences, while Razorpay handles tiered subscription billing per tenant. Each user's data and daily quotas are isolated in PostgreSQL, and the bot runs around the clock on AWS EC2.
+
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-autoapply--landing--sand.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://autoapply-landing-sand.vercel.app/)
 
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
@@ -49,6 +51,8 @@ A multi-tenant Telegram bot that automates the full job-hunt loop: parsing resum
 ### 3. AgentForge, Multi-Agent AI Operating System
 A simulated company run by 7 autonomous LLM agents (CEO, Sales, Marketing, and others) that delegate tasks and message each other through a Redis-backed event bus. A FastAPI backend coordinates agent state and task queues, while a Next.js digital-twin dashboard visualizes decisions and inter-agent conversations as they happen. Agent memory and full conversation history persist in PostgreSQL, so any run can be replayed and audited later.
 
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-agentforge--omega--topaz.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://agentforge-omega-topaz.vercel.app/)
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
@@ -57,6 +61,8 @@ A simulated company run by 7 autonomous LLM agents (CEO, Sales, Marketing, and o
 
 ### 4. AI-PhishGuard, Phishing Detection Platform
 A phishing detector that pairs a scikit-learn classifier trained on URL and domain features with a Groq LLM pass for contextual reasoning, then cross-checks each verdict against VirusTotal and WHOIS signals. Handles both single-URL real-time scans and bulk CSV runs, exporting auto-generated PDF threat reports for each batch. The React/TypeScript frontend talks to a Flask API deployed behind NGINX on AWS EC2.
+
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-ai--phishguard.web.app-brightgreen?style=flat-square&logo=firebase)](https://ai-phishguard.web.app/)
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![React TS](https://img.shields.io/badge/React_TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
