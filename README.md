@@ -21,7 +21,7 @@ $ cat ~/.focus
 
 ## > Experience
 
-**Backend & AI Systems Intern** — *Telogo Communications Ltd*  `Sep 2025 – Mar 2026`
+**Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026`
 - Engineered an IVR system and async worker pools for high-concurrency telephony workloads.
 - Designed and shipped **LoadPulse**, a real-time concurrency & observability platform.
 
