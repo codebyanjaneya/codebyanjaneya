@@ -126,7 +126,12 @@ A Flutter app that runs 7 vision models (HuggingFace + Roboflow) to classify ski
 ![Browser Automation](https://img.shields.io/badge/Browser_Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ## `> most used`
-Python · TypeScript · Dart · JavaScript · Bash · HTML/CSS
+
+<div align="center">
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codebyanjaneya&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8)
+
+</div>
 
 ---
 
