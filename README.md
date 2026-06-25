@@ -27,27 +27,17 @@ $ cat ~/.focus
 
 ---
 
-## > Currently Building
-
-### LoadPulse — Real-time Concurrency & Observability Platform
-Simulates high-traffic backend load handling with **graceful degradation** instead of crashes — token-bucket rate limiting, a bounded async work queue with `429`/`503` backpressure, and live p50/p95/p99 metrics streamed over WebSockets to a React dashboard. Benchmarked against **1000+ concurrent requests**.
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-loadpulse--dashboard.vercel.app-14ffec?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0a0e14)](https://loadpulse-dashboard.vercel.app)
-[![Source](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e14)](https://github.com/codebyanjaneya/loadpulse)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Recharts](https://img.shields.io/badge/Recharts-FF4D8F?style=flat-square&logo=chartdotjs&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-
----
-
 ## > Projects
 
-### 1. AutoApply Bot — Recruitment Automation SaaS
-Multi-tenant SaaS for AI-driven job matching, automated recruiter outreach, and subscription billing.
+### 1. LoadPulse, Real-time Concurrency & Observability Platform
+Architected an async backend simulating high-concurrency request handling with FastAPI worker pools and token-bucket rate limiting. Benchmarked at 1000+ concurrent sessions with graceful degradation. Live observability dashboard streams p50/p95/p99 latency, queue depth, and worker utilization over WebSockets every 500ms. Deployed on AWS EC2 with NGINX reverse proxy and SSL.
+
+[LIVE DEMO](https://loadpulse-dashboard.vercel.app) | [GitHub](https://github.com/codebyanjaneya/loadpulse)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react) ![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-black?style=flat-square) ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws)
+
+### 2. AutoApply Bot, Recruitment Automation SaaS
+A multi-tenant Telegram bot that automates the full job-hunt loop: parsing resumes, matching candidates to openings with Groq Llama 4, and drafting personalized recruiter outreach. n8n workflows orchestrate scraping and timed follow-up sequences, while Razorpay handles tiered subscription billing per tenant. Each user's data and daily quotas are isolated in PostgreSQL, and the bot runs around the clock on AWS EC2.
 
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
@@ -56,8 +46,8 @@ Multi-tenant SaaS for AI-driven job matching, automated recruiter outreach, and 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 
-### 2. AgentForge — Multi-Agent AI Operating System
-7 autonomous agents (CEO, Sales, Marketing, and more) with agent-to-agent communication and a digital-twin dashboard.
+### 3. AgentForge, Multi-Agent AI Operating System
+A simulated company run by 7 autonomous LLM agents (CEO, Sales, Marketing, and others) that delegate tasks and message each other through a Redis-backed event bus. A FastAPI backend coordinates agent state and task queues, while a Next.js digital-twin dashboard visualizes decisions and inter-agent conversations as they happen. Agent memory and full conversation history persist in PostgreSQL, so any run can be replayed and audited later.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -65,8 +55,8 @@ Multi-tenant SaaS for AI-driven job matching, automated recruiter outreach, and 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![LLM API](https://img.shields.io/badge/LLM_API-412991?style=flat-square&logo=openai&logoColor=white)
 
-### 3. AI-PhishGuard — Phishing Detection Platform
-Hybrid ML + LLM pipeline for real-time and bulk URL scanning with auto-generated PDF threat reports.
+### 4. AI-PhishGuard, Phishing Detection Platform
+A phishing detector that pairs a scikit-learn classifier trained on URL and domain features with a Groq LLM pass for contextual reasoning, then cross-checks each verdict against VirusTotal and WHOIS signals. Handles both single-URL real-time scans and bulk CSV runs, exporting auto-generated PDF threat reports for each batch. The React/TypeScript frontend talks to a Flask API deployed behind NGINX on AWS EC2.
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![React TS](https://img.shields.io/badge/React_TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -75,15 +65,13 @@ Hybrid ML + LLM pipeline for real-time and bulk URL scanning with auto-generated
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white)
 
-### 4. DermaCam AI — Dermatology Assistant
-On-device dermatology assistant with **7 models** at **93–96% accuracy** and a Hinglish voice AI. *HackIndia Spark 4 Round 2 qualifier.*
+### 5. DermaCam AI, Dermatology Assistant
+A Flutter app that runs 7 vision models (HuggingFace + Roboflow) to classify skin conditions at 93–96% accuracy straight from a phone camera. A Hinglish voice assistant walks users through each diagnosis and care steps conversationally, making it usable for non-English speakers. Redis caches inference results to cut repeat latency, and the project qualified for HackIndia Spark 4 2026 Round 2.
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Roboflow](https://img.shields.io/badge/Roboflow-6706CE?style=flat-square&logo=roboflow&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-
-### 5. LoadPulse — *see [Currently Building](#-currently-building)*
 
 ---
 
@@ -137,6 +125,9 @@ On-device dermatology assistant with **7 models** at **93–96% accuracy** and a
 ![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white)
 ![Browser Automation](https://img.shields.io/badge/Browser_Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
+## `> most used`
+Python · TypeScript · Dart · JavaScript · Bash · HTML/CSS
+
 ---
 
 ## > Achievements
@@ -146,18 +137,6 @@ On-device dermatology assistant with **7 models** at **93–96% accuracy** and a
 [✓] Vibecon India — Round 2 (10,000+ participants)
 [✓] Selected — GSSoC 2026 & SSOC 2026 (Open Source Contributor)
 ```
-
----
-
-## > GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=codebyanjaneya&theme=dark&hide_border=true&background=0a0e14&stroke=14ffec&ring=14ffec&fire=ff4d8f&currStreakLabel=14ffec&sideLabels=8b96a8&dates=6b7688)](https://github.com/codebyanjaneya)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=codebyanjaneya&layout=compact&theme=dark&hide_border=true&bg_color=0a0e14&title_color=14ffec&text_color=8b96a8&langs_count=8)](https://github.com/codebyanjaneya)
-
-</div>
 
 ---
 
