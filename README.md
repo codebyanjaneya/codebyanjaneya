@@ -142,7 +142,7 @@ A Flutter app that runs 7 vision models (HuggingFace + Roboflow) to classify ski
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codebyanjaneya&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" alt="Most Used Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codebyanjaneya&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8&cache_seconds=1800" />
 
 </div>
 
