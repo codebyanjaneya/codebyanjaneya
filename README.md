@@ -21,11 +21,11 @@ $ cat ~/.focus
 
 ## > Experience
 
-**Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026`
+**Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026` | Noida
 - Engineered an IVR system and async worker pools for high-concurrency telephony workloads.
 - Designed and shipped **LoadPulse**, a real-time concurrency & observability platform.
 
-**Software Development Intern,** *Motivus Innovation Pvt. Ltd.* — Feb 2025 – Jul 2025 | Noida
+**Software Development Intern,** *Motivus Innovation Pvt. Ltd.*  `Feb 2025 – Jul 2025` | Noida
 
 - Developed and enhanced software modules for AI-powered sustainability and energy management platforms focused on ESG reporting and renewable energy solutions.
 - Built and integrated REST APIs, database-driven features, and user-facing components across multiple products improving platform functionality.
