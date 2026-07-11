@@ -19,6 +19,36 @@ $ cat ~/.focus
 
 ---
 
+## > Currently Building
+
+<div align="center">
+
+[![Now Building](https://img.shields.io/badge/⚡_NOW_BUILDING-H.E.R.C.S-14ffec?style=for-the-badge&labelColor=0a0e14)](https://github.com/codebyanjaneya)
+[![Status](https://img.shields.io/badge/STATUS-ACTIVE_DEVELOPMENT-0d7377?style=for-the-badge&labelColor=0a0e14)](https://github.com/codebyanjaneya)
+
+</div>
+
+**H.E.R.C.S** — *a fully-local, JARVIS-style AI voice assistant living on the desktop.*
+
+Clap twice — or say **"wake up Hercs"** — and it wakes, listens, thinks and talks back in a **cloned voice**, while a cinematic holographic HUD pulses in sync with every state. LLM tool-calling lets it actually *run* the machine: launching apps, controlling volume, taking screenshots, reading system vitals. Speech-to-text and voice cloning run 100% offline on-device.
+
+```bash
+$ hercs --pipeline
+> wake(clap|voice) ──▶ whisper.stt ──▶ llama-3.3-70b(tools) ──▶ xtts-v2.cloned_voice
+> hud.state: idle → listening → processing → speaking → success   # live holographic ring-core
+```
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Whisper](https://img.shields.io/badge/faster--whisper_STT-412991?style=flat-square&logo=openai&logoColor=white)
+![Groq Llama 3.3](https://img.shields.io/badge/Groq_Llama_3.3-F55036?style=flat-square&logo=meta&logoColor=white)
+![XTTS-v2](https://img.shields.io/badge/Coqui_XTTS--v2_Voice_Clone-0d7377?style=flat-square&logo=audiomack&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Canvas HUD](https://img.shields.io/badge/Holographic_HUD-Canvas_2D-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Tool Calling](https://img.shields.io/badge/LLM_Tool_Calling-desktop_automation-14ffec?style=flat-square&logo=windowsterminal&logoColor=black&labelColor=0a0e14)
+
+---
+
 ## > Experience
 
 **Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026` | Noida
