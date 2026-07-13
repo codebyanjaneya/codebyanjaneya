@@ -28,9 +28,9 @@ $ cat ~/.focus
 
 </div>
 
-**H.E.R.C.S** — *a fully-local, JARVIS-style AI voice assistant living on the desktop.*
+**H.E.R.C.S** - *a fully-local, JARVIS-style AI voice assistant living on the desktop.*
 
-Clap twice — or say **"wake up Hercs"** — and it wakes, listens, thinks and talks back in a **cloned voice**, while a cinematic holographic HUD pulses in sync with every state. LLM tool-calling lets it actually *run* the machine: launching apps, controlling volume, taking screenshots, reading system vitals. Speech-to-text and voice cloning run 100% offline on-device.
+Clap twice - or say **"wake up Hercs"** — and it wakes, listens, thinks and talks back in a **cloned voice**, while a cinematic holographic HUD pulses in sync with every state. LLM tool-calling lets it actually *run* the machine: launching apps, controlling volume, taking screenshots, reading system vitals. Speech-to-text and voice cloning run 100% offline on-device.
 
 ```bash
 $ hercs --pipeline
@@ -55,7 +55,7 @@ $ hercs --pipeline
 - Engineered an IVR system and async worker pools for high-concurrency telephony workloads.
 - Designed and shipped **LoadPulse**, a real-time concurrency & observability platform.
 
-**Software Development Intern,** *Motivus Innovation Pvt. Ltd.*  `Feb 2025 – Jul 2025` | Noida
+**Software Development Intern** - *Motivus Innovation Pvt. Ltd.*  `Feb 2025 – Jul 2025` | Noida
 
 - Developed and enhanced software modules for AI-powered sustainability and energy management platforms focused on ESG reporting and renewable energy solutions.
 - Built and integrated REST APIs, database-driven features, and user-facing components across multiple products improving platform functionality.
