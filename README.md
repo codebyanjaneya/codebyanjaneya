@@ -51,6 +51,11 @@ $ hercs --pipeline
 
 ## > Experience
 
+**Software Engineer Intern · Full-Stack Developer** - *Gleska Private Limited*  `Jul 2026 – Present` | New Delhi · Hybrid
+- Building and maintaining backend & frontend modules for **Business MALL** across its product pillars — InstantHire, DPR-to-BIM, Financial Management, and the Autonomous Software Lifecycle platform.
+- Shipping clean, well-documented, testable features while taking part in code reviews, sprint planning, and daily stand-ups.
+- Collaborating with product and design teams to translate requirements into working software across development and staging environments.
+
 **Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026` | Noida
 - Engineered an IVR system and async worker pools for high-concurrency telephony workloads.
 - Designed and shipped **LoadPulse**, a real-time concurrency & observability platform.
