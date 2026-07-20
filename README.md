@@ -57,8 +57,12 @@ $ hercs --pipeline
 - Integrated **webhook-driven Cashfree payments** with subscription gating and **Cashfree KYC** (Udyam verification), backed by **Supabase** JWT auth and secure document storage.
 
 **Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026` | Noida
-- Engineered an IVR system and async worker pools for high-concurrency telephony workloads.
-- Designed and shipped **LoadPulse**, a real-time concurrency & observability platform.
+- Architected an intelligent **IVR system** with a custom speech-processing pipeline, boosting recognition accuracy across **Indian accents and dialects**.
+- Built concurrent call-handling infrastructure on **async task queues, worker pooling, and auto-scaling** cloud services for reliable performance under high call volumes.
+- Achieved **sub-2-second response latency** via streaming transcription, model warm-up strategies, and pre-cached voice responses.
+- Developed **LoadPulse**, a real-time concurrency & observability platform on **FastAPI · asyncio worker pools · token-bucket rate limiting**.
+- Benchmarked **1000+ concurrent requests** with graceful degradation and controlled traffic shaping instead of system failure.
+- Engineered a live observability dashboard (**React · Recharts · WebSockets**) streaming latency metrics, queue depth, and worker utilization in real time.
 
 **Software Development Intern** - *Motivus Innovation Pvt. Ltd.*  `Feb 2025 – Jul 2025` | Noida
 
