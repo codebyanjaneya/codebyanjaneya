@@ -45,7 +45,12 @@ $ hercs --pipeline
 
 ## > Experience
 
-**Software Engineer Intern · Full-Stack Developer** - *Gleska Private Limited*  `Jul 2026 – Present` | New Delhi · Hybrid
+**Research & Development Intern** - *RootStock Technologies*  `Aug 2026 – Present` | IIIT Research Centre
+- Engineered a real-time **3D robotic-arm simulator** in **React · Three.js** (react-three-fiber) with 6-DOF forward kinematics, labeled joints (J1-J6), live joint-angle telemetry, and an automated pick-and-place cycle.
+- Architected a multi-user **AI email-triage engine** on **FastAPI** (Gmail OAuth PKCE), classifying inboxes through a rules-first pipeline backed by **Groq Llama 3.3 70B**, with sub-second semantic search over BAAI bge embeddings (fastembed + SQLite).
+- Accelerated deep-learning inference and data workloads across **multi-GPU CUDA** servers, profiling and tuning batch throughput and VRAM utilization for research experiments.
+
+**Software Engineer Intern · Full-Stack Developer** - *Gleska Private Limited*  `Jun 2026 – Aug 2026` | New Delhi · Hybrid
 - Architected a **PostGIS geospatial matching engine** (`ST_DistanceSphere` · `geoalchemy2`) ranking workers by a weighted composite score (**50% proximity · 30% rating · 20% experience**) in a single query, with an auto-expanding **10 km → 30 km** radius and time-boxed **2-min** offer expiry.
 - Engineered a fraud-resistant dispatch lifecycle featuring **dual 4-digit OTP** arrival/completion verification and atomic offer cancellation, on an **async FastAPI · SQLAlchemy · PostgreSQL** core.
 - Integrated **webhook-driven Cashfree payments** with subscription gating and **Cashfree KYC** (Udyam verification), backed by **Supabase** JWT auth and secure document storage.
@@ -60,10 +65,8 @@ $ hercs --pipeline
 
 **Software Development Intern** - *Motivus Innovation Pvt. Ltd.*  `Feb 2025 – Jul 2025` | Noida
 
-- Developed and enhanced software modules for AI-powered sustainability and energy management platforms focused on ESG reporting and renewable energy solutions.
-- Built and integrated REST APIs, database-driven features, and user-facing components across multiple products improving platform functionality.
-- Researched and evaluated AI and ML applications for energy analytics, carbon management, and sustainability monitoring.
-- Optimized application performance and resolved software issues, contributing to improved system reliability and user experience.
+- Shipped **REST APIs** and **PostgreSQL-backed backend modules** for an AI-driven **ESG and sustainability-reporting platform**, owning the full SDLC from schema design and API contracts to testing and deployment.
+- Prototyped and evaluated **ML models** for renewable-energy analytics and automated carbon accounting, converting raw consumption data into structured sustainability metrics and reports.
 
 ---
 
@@ -118,6 +121,19 @@ A Flutter app that runs 7 vision models (HuggingFace + Roboflow) to classify ski
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Roboflow](https://img.shields.io/badge/Roboflow-6706CE?style=flat-square&logo=roboflow&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
+
+### 6. LLM-Gate, AI Code & Infra Validation Pipeline
+An "AI-validates-AI" governance pipeline that gates LLM-generated Terraform and application code through 5 Open Policy Agent (OPA/Rego) security rules inside a GitHub Actions CI stage before anything ships. A Selenium and PyTest feedback loop auto-reprompts Groq Llama 3.3 70B to fix flagged violations, pushing the trust score from 66% to 100%.
+
+[GitHub](https://github.com/codebyanjaneya/LLM-Gate)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Open Policy Agent](https://img.shields.io/badge/Open_Policy_Agent-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Groq Llama 3.3](https://img.shields.io/badge/Groq_Llama_3.3-F55036?style=flat-square&logo=meta&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 ---
 
