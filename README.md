@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e14,50:0d7377,100:14ffec&height=200&section=header&text=Anjaneya%20Tiwari&fontColor=14ffec&fontSize=52&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20AI%20Engineer%20%C2%B7%20Cybersecurity&descSize=18&descAlignY=58&descColor=8b96a8" alt="Anjaneya Tiwari" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e14,50:0d7377,100:14ffec&height=200&section=header&text=Anjaneya%20Tiwari&fontColor=14ffec&fontSize=52&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20AI%20Engineer%20%C2%B7%20Automation%20Engineer%20%C2%B7%20Cybersecurity&descSize=18&descAlignY=58&descColor=8b96a8" alt="Anjaneya Tiwari" />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-codebyanjaneya.github.io-14ffec?style=flat-square&logo=githubpages&logoColor=black&labelColor=0a0e14)](https://codebyanjaneya.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-anjaneya--tiwari-0a66c2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0e14)](https://linkedin.com/in/anjaneya-tiwari)
