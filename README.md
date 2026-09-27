@@ -6,21 +6,9 @@ Full-Stack Developer · AI Engineer · Automation Engineer · Cybersecurity
 
 I work on backend and AI systems, from high-concurrency services to automation tools and research applications.
 
-## Currently Building
-
-### H.E.R.C.S
-
-A desktop voice assistant that runs speech-to-text and voice cloning locally. It wakes on a clap or the phrase “wake up Hercs,” responds in a cloned voice, and uses a Canvas 2D HUD to show its state. LLM tool-calling lets it launch apps, control volume, take screenshots, and read system vitals.
-
-`wake → faster-whisper → Groq Llama 3.3 tool calls → Coqui XTTS-v2`
-
-Stack: Python, faster-whisper, Groq Llama 3.3, Coqui XTTS-v2, PyTorch, CUDA, Canvas 2D
-
-[Project updates](https://github.com/codebyanjaneya)
-
 ## Experience
 
-### Research & Development Intern · RootStock Technologies
+### Research & Development Intern · Intelligence Systems
 *Aug 2026–Present · IIIT Research Centre*
 
 - Built a real-time robotic-arm simulator in React and Three.js (react-three-fiber), with 6-DOF forward kinematics, labeled joints J1–J6, live joint-angle telemetry, and an automated pick-and-place cycle.
@@ -51,6 +39,14 @@ Stack: Python, faster-whisper, Groq Llama 3.3, Coqui XTTS-v2, PyTorch, CUDA, Can
 - Prototyped and evaluated ML models for renewable-energy analytics and automated carbon accounting, turning consumption data into sustainability metrics and reports.
 
 ## Projects
+
+### XENOM Intelligence · Evidence-Grounded Research Platform
+
+A full-stack intelligence workspace for collecting information from configured sources and turning it into traceable evidence, searchable events, claims, timelines, and decision-ready briefs. It combines a FastAPI service, a React dashboard, PostgreSQL-backed workflows, source administration, deterministic quality checks, and optional semantic search and AI-assisted analysis.
+
+[GitHub](https://github.com/codebyanjaneya/Xenom-Intelligence-System)
+
+Stack: FastAPI, React, TypeScript, PostgreSQL, pgvector
 
 ### LoadPulse · Concurrency and Observability
 
