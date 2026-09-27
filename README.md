@@ -1,221 +1,120 @@
-<div align="center">
+# Anjaneya Tiwari
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e14,50:0d7377,100:14ffec&height=200&section=header&text=Anjaneya%20Tiwari&fontColor=14ffec&fontSize=52&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20AI%20Engineer%20%C2%B7%20Automation%20Engineer%20%C2%B7%20Cybersecurity&descSize=18&descAlignY=58&descColor=8b96a8" alt="Anjaneya Tiwari" />
+Full-Stack Developer · AI Engineer · Automation Engineer · Cybersecurity
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-codebyanjaneya.github.io-14ffec?style=flat-square&logo=githubpages&logoColor=black&labelColor=0a0e14)](https://codebyanjaneya.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-anjaneya--tiwari-0a66c2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0e14)](https://linkedin.com/in/anjaneya-tiwari)
-[![Email](https://img.shields.io/badge/Email-anjaneyatiwarii@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white&labelColor=0a0e14)](mailto:anjaneyatiwarii@gmail.com)
-[![Location](https://img.shields.io/badge/Delhi-India-8b96a8?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0a0e14)](#)
+[Portfolio](https://codebyanjaneya.github.io) · [LinkedIn](https://linkedin.com/in/anjaneya-tiwari) · [Email](mailto:anjaneyatiwarii@gmail.com) · Delhi, India
 
-</div>
+I work on backend and AI systems, from high-concurrency services to automation tools and research applications.
 
-Backend and AI systems developer. I build production-grade backends, LLM-powered tools, and systems that hold up under real load.
+## Currently Building
 
----
+### H.E.R.C.S
 
-## > Currently Building
+A desktop voice assistant that runs speech-to-text and voice cloning locally. It wakes on a clap or the phrase “wake up Hercs,” responds in a cloned voice, and uses a Canvas 2D HUD to show its state. LLM tool-calling lets it launch apps, control volume, take screenshots, and read system vitals.
 
-<div align="center">
+`wake → faster-whisper → Groq Llama 3.3 tool calls → Coqui XTTS-v2`
 
-[![Now Building](https://img.shields.io/badge/⚡_NOW_BUILDING-H.E.R.C.S-14ffec?style=for-the-badge&labelColor=0a0e14)](https://github.com/codebyanjaneya)
-[![Status](https://img.shields.io/badge/STATUS-ACTIVE_DEVELOPMENT-0d7377?style=for-the-badge&labelColor=0a0e14)](https://github.com/codebyanjaneya)
+Stack: Python, faster-whisper, Groq Llama 3.3, Coqui XTTS-v2, PyTorch, CUDA, Canvas 2D
 
-</div>
+[Project updates](https://github.com/codebyanjaneya)
 
-**H.E.R.C.S** - *a fully-local, JARVIS-style AI voice assistant living on the desktop.*
+## Experience
 
-Clap twice or say **"wake up Hercs"**, and it wakes, listens, thinks, and talks back in a **cloned voice**, while a cinematic holographic HUD pulses in sync with every state. LLM tool-calling lets it actually *run* the machine: launching apps, controlling volume, taking screenshots, reading system vitals. Speech-to-text and voice cloning run 100% offline on-device.
+### Research & Development Intern · RootStock Technologies
+*Aug 2026–Present · IIIT Research Centre*
 
-```bash
-$ hercs --pipeline
-> wake(clap|voice) ──▶ whisper.stt ──▶ llama-3.3-70b(tools) ──▶ xtts-v2.cloned_voice
-> hud.state: idle → listening → processing → speaking → success   # live holographic ring-core
-```
+- Built a real-time robotic-arm simulator in React and Three.js (react-three-fiber), with 6-DOF forward kinematics, labeled joints J1–J6, live joint-angle telemetry, and an automated pick-and-place cycle.
+- Built a multi-user email-triage engine with FastAPI and Gmail OAuth PKCE. Its rules-first classifier uses Groq Llama 3.3 70B; semantic search runs over BAAI bge embeddings using fastembed and SQLite.
+- Profiled deep-learning inference and data workloads on multi-GPU CUDA servers, tuning batch throughput and VRAM use for research experiments.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Whisper](https://img.shields.io/badge/faster--whisper_STT-412991?style=flat-square&logo=openai&logoColor=white)
-![Groq Llama 3.3](https://img.shields.io/badge/Groq_Llama_3.3-F55036?style=flat-square&logo=meta&logoColor=white)
-![XTTS-v2](https://img.shields.io/badge/Coqui_XTTS--v2_Voice_Clone-0d7377?style=flat-square&logo=audiomack&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Canvas HUD](https://img.shields.io/badge/Holographic_HUD-Canvas_2D-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Tool Calling](https://img.shields.io/badge/LLM_Tool_Calling-desktop_automation-14ffec?style=flat-square&logo=windowsterminal&logoColor=black&labelColor=0a0e14)
+### Software Engineer Intern · Full-Stack Developer · Gleska Private Limited
+*Jun 2026–Aug 2026 · New Delhi, hybrid*
 
----
+- Built a PostGIS worker-matching engine using `ST_DistanceSphere` and geoalchemy2. A single query ranks workers by proximity (50%), rating (30%), and experience (20%); the search radius expands from 10 km to 30 km, and offers expire after two minutes.
+- Developed a dispatch lifecycle with dual four-digit OTP checks for arrival and completion, plus atomic offer cancellation, using async FastAPI, SQLAlchemy, and PostgreSQL.
+- Integrated webhook-driven Cashfree payments, subscription gating, and Cashfree KYC for Udyam verification, with Supabase JWT authentication and secure document storage.
 
-## > Experience
+### Backend & AI Systems Intern · Telogo Communications Ltd
+*Sep 2025–Mar 2026 · Noida*
 
-**Research & Development Intern** - *RootStock Technologies*  `Aug 2026 – Present` | IIIT Research Centre
-- Engineered a real-time **3D robotic-arm simulator** in **React · Three.js** (react-three-fiber) with 6-DOF forward kinematics, labeled joints (J1-J6), live joint-angle telemetry, and an automated pick-and-place cycle.
-- Architected a multi-user **AI email-triage engine** on **FastAPI** (Gmail OAuth PKCE), classifying inboxes through a rules-first pipeline backed by **Groq Llama 3.3 70B**, with sub-second semantic search over BAAI bge embeddings (fastembed + SQLite).
-- Accelerated deep-learning inference and data workloads across **multi-GPU CUDA** servers, profiling and tuning batch throughput and VRAM utilization for research experiments.
+- Developed an IVR speech-processing pipeline to improve recognition across Indian accents and dialects.
+- Built concurrent call handling with async task queues, worker pools, and auto-scaling cloud services.
+- Reached sub-two-second response latency using streaming transcription, model warm-up, and pre-cached voice responses.
+- Developed LoadPulse, a concurrency and observability platform using FastAPI, asyncio worker pools, and token-bucket rate limiting.
+- Benchmarked more than 1,000 concurrent requests with graceful degradation and controlled traffic shaping.
+- Built a React, Recharts, and WebSockets dashboard streaming latency, queue depth, and worker utilization.
 
-**Software Engineer Intern · Full-Stack Developer** - *Gleska Private Limited*  `Jun 2026 – Aug 2026` | New Delhi · Hybrid
-- Architected a **PostGIS geospatial matching engine** (`ST_DistanceSphere` · `geoalchemy2`) ranking workers by a weighted composite score (**50% proximity · 30% rating · 20% experience**) in a single query, with an auto-expanding **10 km → 30 km** radius and time-boxed **2-min** offer expiry.
-- Engineered a fraud-resistant dispatch lifecycle featuring **dual 4-digit OTP** arrival/completion verification and atomic offer cancellation, on an **async FastAPI · SQLAlchemy · PostgreSQL** core.
-- Integrated **webhook-driven Cashfree payments** with subscription gating and **Cashfree KYC** (Udyam verification), backed by **Supabase** JWT auth and secure document storage.
+### Software Development Intern · Motivus Innovation Pvt. Ltd.
+*Feb 2025–Jul 2025 · Noida*
 
-**Backend & AI Systems Intern** - *Telogo Communications Ltd*  `Sep 2025 – Mar 2026` | Noida
-- Architected an intelligent **IVR system** with a custom speech-processing pipeline, boosting recognition accuracy across **Indian accents and dialects**.
-- Built concurrent call-handling infrastructure on **async task queues, worker pooling, and auto-scaling** cloud services for reliable performance under high call volumes.
-- Achieved **sub-2-second response latency** via streaming transcription, model warm-up strategies, and pre-cached voice responses.
-- Developed **LoadPulse**, a real-time concurrency & observability platform on **FastAPI · asyncio worker pools · token-bucket rate limiting**.
-- Benchmarked **1000+ concurrent requests** with graceful degradation and controlled traffic shaping instead of system failure.
-- Engineered a live observability dashboard (**React · Recharts · WebSockets**) streaming latency metrics, queue depth, and worker utilization in real time.
+- Shipped REST APIs and PostgreSQL-backed modules for an AI-driven ESG and sustainability-reporting platform, covering schema design, API contracts, testing, and deployment.
+- Prototyped and evaluated ML models for renewable-energy analytics and automated carbon accounting, turning consumption data into sustainability metrics and reports.
 
-**Software Development Intern** - *Motivus Innovation Pvt. Ltd.*  `Feb 2025 – Jul 2025` | Noida
+## Projects
 
-- Shipped **REST APIs** and **PostgreSQL-backed backend modules** for an AI-driven **ESG and sustainability-reporting platform**, owning the full SDLC from schema design and API contracts to testing and deployment.
-- Prototyped and evaluated **ML models** for renewable-energy analytics and automated carbon accounting, converting raw consumption data into structured sustainability metrics and reports.
+### LoadPulse · Concurrency and Observability
 
----
+Async FastAPI worker pools and token-bucket rate limiting, benchmarked at more than 1,000 concurrent sessions with graceful degradation. The dashboard streams p50/p95/p99 latency, queue depth, and worker utilization over WebSockets every 500 ms. Deployed on AWS EC2 behind NGINX with SSL.
 
-## > Projects
+[Live demo](https://loadpulse-dashboard.vercel.app) · [GitHub](https://github.com/codebyanjaneya/loadpulse)
 
-### 1. LoadPulse, Real-time Concurrency & Observability Platform
-Architected an async backend simulating high-concurrency request handling with FastAPI worker pools and token-bucket rate limiting. Benchmarked at 1000+ concurrent sessions with graceful degradation. Live observability dashboard streams p50/p95/p99 latency, queue depth, and worker utilization over WebSockets every 500ms. Deployed on AWS EC2 with NGINX reverse proxy and SSL.
+Stack: FastAPI, asyncio, React, Recharts, WebSockets, AWS EC2, NGINX
 
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-loadpulse--dashboard.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://loadpulse-dashboard.vercel.app) | [GitHub](https://github.com/codebyanjaneya/loadpulse)
+### AutoApply Bot · Recruitment Automation SaaS
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react) ![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-black?style=flat-square) ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws)
+A multi-tenant Telegram bot that parses resumes, matches candidates to jobs with Groq Llama 4, and drafts recruiter outreach. n8n orchestrates scraping and timed follow-ups; Razorpay handles tiered subscriptions. PostgreSQL isolates user data and daily quotas. Runs on AWS EC2.
 
-### 2. AutoApply Bot, Recruitment Automation SaaS
-A multi-tenant Telegram bot that automates the full job-hunt loop: parsing resumes, matching candidates to openings with Groq Llama 4, and drafting personalized recruiter outreach. n8n workflows orchestrate scraping and timed follow-up sequences, while Razorpay handles tiered subscription billing per tenant. Each user's data and daily quotas are isolated in PostgreSQL, and the bot runs around the clock on AWS EC2.
+[Live demo](https://autoapply-landing-sand.vercel.app/)
 
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-autoapply--landing--sand.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://autoapply-landing-sand.vercel.app/)
+Stack: Telegram, n8n, Groq Llama 4, Razorpay, PostgreSQL, AWS EC2
 
-![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Groq Llama 4](https://img.shields.io/badge/Groq_Llama_4-F55036?style=flat-square&logo=meta&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+### AgentForge · Multi-Agent AI System
 
-### 3. AgentForge, Multi-Agent AI Operating System
-A simulated company run by 7 autonomous LLM agents (CEO, Sales, Marketing, and others) that delegate tasks and message each other through a Redis-backed event bus. A FastAPI backend coordinates agent state and task queues, while a Next.js digital-twin dashboard visualizes decisions and inter-agent conversations as they happen. Agent memory and full conversation history persist in PostgreSQL, so any run can be replayed and audited later.
+A simulated company run by seven LLM agents, including CEO, Sales, and Marketing agents. They delegate tasks and communicate through a Redis event bus. FastAPI coordinates agent state and task queues; a Next.js dashboard visualizes decisions and conversations. PostgreSQL stores agent memory and conversation history for replay and audit.
 
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-agentforge--omega--topaz.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://agentforge-omega-topaz.vercel.app/)
+[Live demo](https://agentforge-omega-topaz.vercel.app/)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![LLM API](https://img.shields.io/badge/LLM_API-412991?style=flat-square&logo=openai&logoColor=white)
+Stack: FastAPI, Next.js, Redis, PostgreSQL, LLM APIs
 
-### 4. AI-PhishGuard, Phishing Detection Platform
-A phishing detector that pairs a scikit-learn classifier trained on URL and domain features with a Groq LLM pass for contextual reasoning, then cross-checks each verdict against VirusTotal and WHOIS signals. Handles both single-URL real-time scans and bulk CSV runs, exporting auto-generated PDF threat reports for each batch. The React/TypeScript frontend talks to a Flask API deployed behind NGINX on AWS EC2.
+### AI-PhishGuard · Phishing Detection
 
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-ai--phishguard.web.app-brightgreen?style=flat-square&logo=firebase)](https://ai-phishguard.web.app/)
+A scikit-learn classifier uses URL and domain features, followed by a Groq LLM pass for contextual reasoning. Verdicts are checked against VirusTotal and WHOIS signals. Supports real-time single-URL scans and bulk CSV runs, with PDF threat reports. The React/TypeScript frontend uses a Flask API deployed behind NGINX on AWS EC2.
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![React TS](https://img.shields.io/badge/React_TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=meta&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white)
+[Live demo](https://ai-phishguard.web.app/)
 
-### 5. DermaCam AI, Dermatology Assistant
-A Flutter app that runs 7 vision models (HuggingFace + Roboflow) to classify skin conditions at 93-96% accuracy straight from a phone camera. A Hinglish voice assistant walks users through each diagnosis and care steps conversationally, making it usable for non-English speakers. Redis caches inference results to cut repeat latency, and the project qualified for HackIndia Spark 4 2026 Round 2.
+Stack: Flask, React, TypeScript, scikit-learn, Groq, AWS EC2, VirusTotal, WHOIS
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Roboflow](https://img.shields.io/badge/Roboflow-6706CE?style=flat-square&logo=roboflow&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
+### DermaCam AI · Dermatology Assistant
 
-### 6. LLM-Gate, AI Code & Infra Validation Pipeline
-An "AI-validates-AI" governance pipeline that gates LLM-generated Terraform and application code through 5 Open Policy Agent (OPA/Rego) security rules inside a GitHub Actions CI stage before anything ships. A Selenium and PyTest feedback loop auto-reprompts Groq Llama 3.3 70B to fix flagged violations, pushing the trust score from 66% to 100%.
+A Flutter app that runs seven Hugging Face and Roboflow vision models to classify skin conditions from a phone camera, with reported accuracy of 93–96%. A Hinglish voice assistant explains diagnoses and care steps. Redis caches inference results. Qualified for HackIndia Spark 4 2026 Round 2.
+
+Stack: Flutter, Hugging Face, Roboflow, Redis
+
+### LLM-Gate · Code and Infrastructure Validation
+
+A GitHub Actions pipeline checks LLM-generated Terraform and application code against five Open Policy Agent (OPA/Rego) security rules. A Selenium and PyTest feedback loop prompts Groq Llama 3.3 70B to fix flagged violations; the reported trust score improved from 66% to 100%.
 
 [GitHub](https://github.com/codebyanjaneya/LLM-Gate)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Open Policy Agent](https://img.shields.io/badge/Open_Policy_Agent-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Groq Llama 3.3](https://img.shields.io/badge/Groq_Llama_3.3-F55036?style=flat-square&logo=meta&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+Stack: Python, Terraform, OPA/Rego, GitHub Actions, Groq Llama 3.3, Selenium, PyTest
 
----
+## Technical Skills
 
-## > Tech Stack
+- **Languages:** Python, Dart, JavaScript, TypeScript, Bash
+- **Backend:** Flask, Django REST, FastAPI
+- **AI/ML:** Prompt engineering, RAG pipelines, Groq Llama 4, Hugging Face, OpenCV, CNNs
+- **Cloud and DevOps:** AWS EC2, SNS, SES; Docker, NGINX, Gunicorn, GitHub Actions
+- **Databases:** PostgreSQL, Redis, Firebase
+- **Frontend:** React, Flutter, Next.js
+- **Security:** VirusTotal, Burp Suite, OSINT, WHOIS API
+- **Automation:** n8n, Zapier, browser automation
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+## Most Used Languages
 
-**Backend**
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Django REST](https://img.shields.io/badge/Django_REST-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+Python 35% · TypeScript 20% · JavaScript 15% · Dart 12% · HTML/CSS 10% · Bash 8%
 
-**AI / ML**
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-412991?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-FF6F00?style=flat-square&logo=langchain&logoColor=white)
-![Groq Llama 4](https://img.shields.io/badge/Groq_Llama_4-F55036?style=flat-square&logo=meta&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![CNNs](https://img.shields.io/badge/CNNs-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+## Achievements
 
-**Cloud / DevOps**
-![AWS](https://img.shields.io/badge/AWS_EC2_·_SNS_·_SES-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-**Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-**Security**
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![OSINT](https://img.shields.io/badge/OSINT-0a0e14?style=flat-square&logo=tryhackme&logoColor=white)
-![WHOIS](https://img.shields.io/badge/WHOIS_API-2C2C2C?style=flat-square&logo=icloud&logoColor=white)
-
-**Automation**
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white)
-![Browser Automation](https://img.shields.io/badge/Browser_Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-
-## `> most used`
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-35%25-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-20%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-15%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-12%25-0175C2?style=flat-square&logo=dart&logoColor=white)
-![HTML%2FCSS](https://img.shields.io/badge/HTML%2FCSS-10%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-8%25-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-</div>
-
----
-
-## > Achievements
-
-```
-[✓] HackIndia Spark 4 2026: Round 2 Qualifier
-[✓] Vibecon India: Round 2 (10,000+ participants)
-[✓] Selected for GSSoC 2026 & SSOC 2026 (Open Source Contributor)
-```
-
----
-
-<div align="center">
-
-> **"Build systems that bend under pressure, never ones that break."**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:14ffec,50:0d7377,100:0a0e14&height=120&section=footer" alt="" />
-
-</div>
+- HackIndia Spark 4 2026: Round 2 qualifier
+- Vibecon India: Round 2, among 10,000+ participants
+- Selected for GSSoC 2026 and SSOC 2026 as an open-source contributor
